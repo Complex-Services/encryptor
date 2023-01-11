@@ -41,13 +41,13 @@ while True:
             
         elif save_result == 'n':
             c()
-            print("[ Encryption not saved ]")
+            print("Encryption not saved")
             input("Enter to continue..")
             c()
             
         else:
             c()
-            print("[ Invalid command ]")
+            print("Invalid command")
             input("Enter to continue..")
             c()
         
@@ -62,19 +62,19 @@ while True:
             f = open("decrypted.txt", "a+")
             f.write(f"{result}\n")
             f.close()
-            print("[ Decryption saved ]")
+            print("Decryption saved")
             input("Enter to continue..")
             c()
             
         elif save_result == 'n':
             c()
-            print("[ Decryption not saved ]")
+            print("Decryption not saved")
             input("Enter to continue..")
             c()
             
         else:
             c()
-            print("[ Invalid command ]")
+            print("Invalid command")
             input("Enter to continue..")
             c()
         
