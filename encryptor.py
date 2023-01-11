@@ -68,7 +68,7 @@ while True:
             
         elif save_result == 'n':
             c()
-            print("[ Encryption not saved ]")
+            print("[ Decryption not saved ]")
             input("Enter to continue..")
             c()
             
